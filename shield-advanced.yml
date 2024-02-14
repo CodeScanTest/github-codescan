@@ -5,7 +5,7 @@ Resources:
     Properties:
       Name: TestCloudfrontDistributionProtection
       ResourceArn:
-        Fn::Sub: arn:aws:cloudfront::470834189067:distribution/E1FLKIBJXXJWEN
+        Fn::Sub: 
       ApplicationLayerAutomaticResponseConfiguration:
         Status: ENABLED
         Action:
