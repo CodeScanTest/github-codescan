@@ -22,7 +22,7 @@ public class ComplexityCode {
         if (id == 0 && name == "dummy" && Boolean.valueOf(description) == false && isValid) {
             return "it will work all fine";
         } else if (id == 0 && name == "dummy" && Boolean.valueOf(description) == true && isValid) {
-            return "how come description is true?";
+            return "how come description is true or not";
         } else if (id == 0 && name == "dummy" && Boolean.valueOf(description) == false && !isValid) {
             return "it has to be valid for me to work";
         }
