@@ -1,0 +1,12 @@
+Resources:
+  # Create L7 Protection
+  Protection:
+    Type: AWS::Shield::Protection
+    Properties:
+      Name: TestCloudfrontDistributionProtection
+      ResourceArn:
+        Fn::Sub: arn:aws:cloudfront::470834189067:distribution/E1FLKIBJXXJWEN
+      ApplicationLayerAutomaticResponseConfiguration:
+        Status: ENABLED
+        Action:
+          Block: { }
